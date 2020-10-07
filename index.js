@@ -10,7 +10,7 @@ mongoose.connect(
 );
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("Yo waddup!");
 });
 
 app.use(bodyParser.json());
